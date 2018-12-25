@@ -1,0 +1,73 @@
+body
+{
+	background-color: #21112B;
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	background-color: white;
+	width: 40%;
+	margin:auto;
+	margin-top: 6%;
+	border-radius: 3px;
+}
+
+h3
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: black;
+	font-weight: 966;
+}
+
+h4
+{
+	font-weight: 900;
+}
+
+textarea
+{
+	margin-left: 40px;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding:5px;
+	display:block;
+	resize: none;
+}
+
+#submit
+{
+	font-weight: bold;
+	width:60%;
+	font-size: 18px;	
+	background-color: black;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding :5px;
+	border-radius: 18px;
+}
+
+#submit:hover
+{
+	color:white;
+	border-radius: 14px;
+	animation-name: ancrs;
+	animation-duration: 1.2s;
+	padding: 5px;
+	font-size:24px;
+	width: 60%;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@keyframes ancrs
+{
+	from{background-color: black; color:white;}
+	to{background-color:#21112B; color:white; }
+}

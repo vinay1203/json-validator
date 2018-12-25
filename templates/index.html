@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+	<title>Home Page</title>
+</head>
+<body>
+	<div class="container">
+		<h3> Welcome Human!</h3>
+		<h4> Enter your data here </h4>
+		<form method="post" action="{{ url_for('jsonify_data') }}">
+			<textarea rows="10" cols=" 50" name="json_txt"></textarea>
+			<input type="submit" name="submit" value="Submit" id="submit">
+		</form>
+	</div>
+
+</body>
+</html>
